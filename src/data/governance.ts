@@ -1,4 +1,5 @@
 import type { GovernanceDocument } from "@/types/governance";
+import { asset } from "@/utils/asset";
 
 export const governanceDocuments: GovernanceDocument[] = [
   {
@@ -7,7 +8,7 @@ export const governanceDocuments: GovernanceDocument[] = [
     description:
       "شهادة الترخيص الصادرة من المركز الوطني لتنمية القطاع غير الربحي، رقم الترخيص 1000873900، سارية حتى 2030-04-27.",
     category: "التأسيس والترخيص",
-    fileUrl: "/documents/license-certificate.pdf",
+    fileUrl: asset("documents/license-certificate.pdf"),
     fileSizeKb: 88,
     updatedAt: "2026-04-27",
   },
@@ -17,7 +18,7 @@ export const governanceDocuments: GovernanceDocument[] = [
     description:
       "قرار تسجيل جمعية النهى للأمومة والطفولة بمنطقة مكة المكرمة، رقم الصادر ED049575.",
     category: "التأسيس والترخيص",
-    fileUrl: "/documents/registration-decision.pdf",
+    fileUrl: asset("documents/registration-decision.pdf"),
     fileSizeKb: 85,
     updatedAt: "1447/11/10 هـ",
   },
@@ -27,7 +28,7 @@ export const governanceDocuments: GovernanceDocument[] = [
     description:
       "اللائحة الأساسية الكاملة المعتمدة من المركز الوطني لتنمية القطاع غير الربحي، تتضمن التعريفات والأهداف والحوكمة والتنظيم المالي.",
     category: "اللائحة الأساسية",
-    fileUrl: "/documents/bylaws.pdf",
+    fileUrl: asset("documents/bylaws.pdf"),
     fileSizeKb: 338,
     updatedAt: "1447/11/10 هـ",
   },
@@ -37,7 +38,7 @@ export const governanceDocuments: GovernanceDocument[] = [
     description:
       "خطاب موافقة المركز الوطني على تشكيل مجلس إدارة الجمعية في دورته الأولى لمدة أربع سنوات.",
     category: "مجلس الإدارة",
-    fileUrl: "/documents/board-formation-letter.pdf",
+    fileUrl: asset("documents/board-formation-letter.pdf"),
     fileSizeKb: 116,
     updatedAt: "1447/11/10 هـ",
   },
@@ -47,7 +48,7 @@ export const governanceDocuments: GovernanceDocument[] = [
     description:
       "قرار الموافقة على تعيين الأستاذة منال صلاح سعد مورعى مسؤولاً تنفيذياً غير متفرغ للكيان.",
     category: "القرارات الإدارية",
-    fileUrl: "/documents/executive-director-appointment.pdf",
+    fileUrl: asset("documents/executive-director-appointment.pdf"),
     fileSizeKb: 113,
     updatedAt: "2026-06-30",
   },
@@ -57,7 +58,7 @@ export const governanceDocuments: GovernanceDocument[] = [
     description:
       "قرار الموافقة على تكليف الأستاذ محمد طلال بن صدقه شافعى قيادياً مالياً للكيان لمدة ستة أشهر.",
     category: "القرارات الإدارية",
-    fileUrl: "/documents/financial-officer-appointment.pdf",
+    fileUrl: asset("documents/financial-officer-appointment.pdf"),
     fileSizeKb: 113,
     updatedAt: "2026-06-30",
   },
