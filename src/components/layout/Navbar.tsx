@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu } from "lucide-react";
 import { Drawer } from "@/components/ui/Drawer";
+import logo from "@/assets/logo.png";
 
 const links = [
   { to: "/", label: "الرئيسية" },
@@ -34,8 +35,9 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <NavLink to="/" className="text-lg font-semibold text-neutral-900">
-          جمعية النهى
+        <NavLink to="/" className="flex items-center gap-2 text-lg font-semibold text-neutral-900">
+          <img src={logo} alt="جمعية النهى" className="h-10 w-auto" />
+          <span className="hidden sm:inline">جمعية النهى</span>
         </NavLink>
 
         <div className="hidden items-center gap-8 md:flex">

@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   return (
     <footer className="border-t border-neutral-200 bg-white/60">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 sm:grid-cols-3">
         <div>
+          <img src={logo} alt="جمعية النهى" className="mb-3 h-14 w-auto" />
           <h3 className="mb-3 text-lg font-semibold text-neutral-900">جمعية النهى</h3>
           <p className="text-sm leading-relaxed text-neutral-600">
             جمعية النهى للأمومة والطفولة، جمعية أهلية تعمل على دعم الأمهات والأطفال
